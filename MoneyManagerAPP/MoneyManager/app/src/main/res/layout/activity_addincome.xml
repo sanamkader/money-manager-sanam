@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_addincome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#43cd80"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.example.y.moneymanager.AddincomeActivity">
+
+    <EditText
+        android:id="@+id/et_monthinput"
+        android:hint="Enter The Month"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/et_incomeinput"
+        android:hint="Enter The Monthly Income"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+    <Button
+        android:id="@+id/bt_addincome"
+        android:text="SAVE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/tv_statusincome"
+        android:text=""
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#4fb4f2"
+    android:padding="10dp">
+    <TextView
+        android:id="@+id/tv_year"
+        android:text="year"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_month"
+        android:text="month"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_week"
+        android:text="week"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_date"
+        android:text="date"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_category"
+        android:text="category"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_amount"
+        android:text="amount"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

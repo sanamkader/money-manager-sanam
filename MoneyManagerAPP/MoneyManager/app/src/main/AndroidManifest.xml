@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.y.moneymanager">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashscreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AddexpenseActivity" />
+        <activity android:name=".DatalistActivity" />
+        <activity android:name=".SearchanddeleteActivity" />
+        <activity android:name=".UpdateexpenseActivity" />
+        <activity android:name=".ReportsActivity" />
+        <activity android:name=".DailyreportsearchActivity" />
+        <activity android:name=".MonthlyreportsearchActivity" />
+        <activity android:name=".WeeklyreportsearchActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".AddincomeActivity" />
+
+        <receiver android:name="layout.MoneyManager">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/money_manager_info" />
+        </receiver>
+
+        <activity android:name=".YearlyreportsearchActivity"></activity>
+    </application>
+
+</manifest>

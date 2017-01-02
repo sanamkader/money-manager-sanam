@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_yearlyreportsearch"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#39c9bb"
+    android:orientation="vertical"
+    tools:context="com.example.y.moneymanager.YearlyreportsearchActivity">
+
+    <EditText
+        android:id="@+id/et_year_yearlyreportsactivity"
+        android:hint="Enter The YEAR"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/bt_search_yearlyreportsactivity"
+            android:text="SEARCH"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/bt_clear_yearlyreportsactivity"
+            android:text="CLEAR"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"/>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_showyearlyreport"
+        android:text=""
+        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:text="CALCULATE TOTAL YEARLY EXPENSE"
+            android:textColor="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/bt_calculateyearlyexpense"
+            android:text="CALCULATE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:text=""
+        android:textColor="#000000"
+        android:id="@+id/tv_totalyearlyexpense"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text=""
+        android:textColor="#000000"
+        android:id="@+id/tv_yearlybalance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

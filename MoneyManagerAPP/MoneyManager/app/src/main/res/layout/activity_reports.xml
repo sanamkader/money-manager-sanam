@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_reports"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:background="#39c9bb"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context="com.example.y.moneymanager.ReportsActivity">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+    <TextView
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Show Daily Reports"
+        android:textColor="#000000"/>
+    <Button
+        android:id="@+id/bt_dailyreportsearch_reportactivity"
+        android:layout_weight="1"
+        android:text="SHOW"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <TextView
+            android:textSize="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Show Weekly Reports"
+            android:textColor="#000000"/>
+        <Button
+            android:id="@+id/bt_weeklyreportsearch_reportactivity"
+            android:layout_weight="1"
+            android:text="SHOW"
+            android:textColor="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <TextView
+            android:textSize="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Show Monthly Reports"
+            android:textColor="#000000"/>
+        <Button
+            android:id="@+id/bt_monthlyreportsearch_reportactivity"
+            android:layout_weight="1"
+            android:text="SHOW"
+            android:textColor="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <TextView
+            android:textSize="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Show Yearly Reports"
+            android:textColor="#000000"/>
+        <Button
+            android:id="@+id/bt_yearlyreportsearch_reportactivity"
+            android:layout_weight="1"
+            android:text="SHOW"
+            android:textColor="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
